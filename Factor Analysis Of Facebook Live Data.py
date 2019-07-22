@@ -7,7 +7,7 @@ class live:
 	def __init__(self,df):
 		self.df = df
 
-	def preprocessing_mca(self):
+	def preprocessing_famd(self):
 		data = self.df
 		#Number of entries and columns.
 		entries = data.shape[0]
