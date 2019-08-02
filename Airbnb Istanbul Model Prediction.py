@@ -149,7 +149,7 @@ class airbnb_istanbul:
 		lin_testing_set_score = np.mean(R2) 
 		lin_median_abs_error = np.mean(MAE) 
 
-		return R2,MAE
+		return lin_testing_set_score,lin_median_abs_error
 
 result = airbnb_istanbul(pd.read_csv(r'C:\Users\nezih\Desktop\listings.csv'))
 
