@@ -1,2 +1,1 @@
-# Projects
-My humble projects
+# Portfolio
