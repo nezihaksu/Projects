@@ -137,11 +137,7 @@ def model(self):
 		cv = KFold(n_splits=5)
 		linreg = LinReg()
 		y = self.df['price']
-<<<<<<< HEAD
 		x = self.df.iloc[:, 0:-1]
-=======
-		x = self.df.iloc[:,0:-1]
->>>>>>> b0217e905f1458807fd811f39e7eab8ab3763509
 		MAE = []
 		R2 = []
 
