@@ -13,7 +13,7 @@ class forest_fire:
 		#count = pd.read_sql_query('select count(*) from work',db)
 		#drop = pd.read_sql_query('drop table work',db)
 		avg = pd.read_sql_query('select avg(temp) from forestfire',db)
-		orderby = pd.read_sql_query('select month from forestfire order by temp asc;',db)
+		order_by = pd.read_sql_query('select month from forestfire order by temp asc;',db)
 		pd.set_option('display.max_column',None)
 
 		
