@@ -1,7 +1,7 @@
 import pandas as pd 
 import sqlite3
 
-class work_nature:
+class forest_fire:
 
 	def __init__(self,db):
 		self.db = db
@@ -21,6 +21,6 @@ class work_nature:
 		return table
 
 
-csv_file = work_nature(pd.read_csv('http://archive.ics.uci.edu/ml/machine-learning-databases/forest-fires/forestfires.csv',encoding = 'latin-1'))
+csv_file = forest_fire(pd.read_csv('http://archive.ics.uci.edu/ml/machine-learning-databases/forest-fires/forestfires.csv',encoding = 'latin-1'))
 
 print(csv_file.to_sql())

@@ -132,23 +132,25 @@ class airbnb_istanbul:
 
 		return self.df
 
-	def model(self):
-		cv = KFold(n_splits = 5)
+
+def model(self):
+		cv = KFold(n_splits=5)
 		linreg = LinReg()
 		y = self.df['price']
+		x = self.df.iloc[:, 0:-1]
 		MAE = []
 		R2 = []
 
-		for train, test in cv.split(self.df):
-			linreg.fit(self.df.iloc[train], y.iloc[train])
-			y_predict = linreg.predict(self.df.iloc[test])
-			R2.append(linreg.score(self.df.iloc[test], y.iloc[test]))
+		for train, test in cv.split(x):
+			linreg.fit(x.iloc[train], y.iloc[train])
+			y_predict = linreg.predict(x.iloc[test])
+			R2.append(linreg.score(x.iloc[test], y.iloc[test]))
 			MAE.append(median_absolute_error(y.iloc[test], y_predict))
 
-		lin_testing_set_score = np.mean(R2) # R = 0.9999999999999467
-		lin_median_abs_error = np.mean(MAE) # MAE = 1.4495071809506043e-13
+		lin_testing_set_score = np.mean(R2)
+		lin_median_abs_error = np.mean(MAE)
 
-		return lin_testing_set_score,lin_median_abs_error
+		return R2, MAE
 
 result = airbnb_istanbul(pd.read_csv(r'C:\Users\nezih\Desktop\listings.csv'))
 
