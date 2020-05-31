@@ -23,7 +23,7 @@ class EqSentimentPipeline(object):
 
 		host = 'localhost',
 		user = 'root',
-		password = 'lemansser',
+		password = '******',
 		db = 'eq_sentiment',
 		charset = 'utf8mb4')
 
