@@ -63,13 +63,6 @@ pipeline = Pipeline([
 feature_range = np.arange(5000,20001,5000)
 iter_range = [4000]
 
-vectorizer_parameters = {
-	'vect__max_df': [0.5, 0.75, 1.0],
-    'vect__max_features': feature_range,
-    'vect__ngram_range': [(1, 1), (1, 2),(1,3)],  # unigrams or bigrams,trigram
-    'tfidf__use_idf': [True, False],
-    'tfidf__norm': ['l1', 'l2'], 
-}
 
 log_parameters = {
 	'vect__max_df': [0.5, 0.75, 1.0],
@@ -81,7 +74,7 @@ log_parameters = {
     'clf__estimator__penalty': ['l1','l2'],
     'clf__estimator__max_iter': iter_range,
     'clf__estimator__solver':['saga']
-   }#.update(vectorizer_parameters)
+   }
 
 
 sdg_parameter =  {
@@ -95,7 +88,7 @@ sdg_parameter =  {
 	'clf__estimator__max_iter': iter_range,
 	'clf__estimator__tol': [1e-4],
 	'clf__estimator__loss': ['hinge', 'log', 'modified_huber'],
-}#.update(vectorizer_parameters)
+}
 
 all_parameters = [log_parameters,sdg_parameter]
 
@@ -120,7 +113,7 @@ if __name__ == "__main__":
 
 		print("done in %0.3fs" % (time() - t0))
 		print()
-		print("Best score: %0.3f" % grid_search.score(y_pred,y_test))
+		print("Model score with the best model parameters: %0.3f" % grid_search.score(y_pred,y_test))
 		best_scores_list.append(grid_search.best_score_)
 		print("Best parameters set:")
 	    
