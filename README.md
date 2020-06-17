@@ -33,7 +33,7 @@
 
   Which word is used for what sense and their ratio of negative or positive usage.There are thousands of words,these are just the best     representations that i found.
   
-![](https://github.com/nezihaksu/Projects/blob/master/images/neg-pos-ratio.jpeg)
+![](/images/neg-pos-ratio.jpeg)
 
 # Model
 
