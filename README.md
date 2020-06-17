@@ -24,6 +24,19 @@
 # EDA
   Introduction to dataset,visulization and understanding the words beyond their meanings and sentence meaning.
   
+  Wordcloud for negative words:
+![](https://github.com/nezihaksu/Projects/blob/master/images/negative_wordcloud.JPG)
   
-  
+  Wordcloud for positive words:
+![](https://github.com/nezihaksu/Projects/blob/master/images/positive_wordcloud.JPG)
+
+  Which word is used for what sense and their ratio of negative or positive usage.There are thousands of words,these are just the best     representations that i found.
+![](https://github.com/nezihaksu/Projects/blob/master/images/neg-pos-ratio.jpeg)
+
+# Model
+
+  Searched the best model and best parameters for the best model with the gridsearch module from sklearn.
+  Usually logistic regression is the best machine learning algorithm that classifies binary classes,even better than neural networks    
+  mostly.
+  Both timewise and simplicity logistic regression is the way to go when there are binary outcomes.
   
