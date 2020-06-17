@@ -26,11 +26,11 @@
   
   Wordcloud for negative words:
   
-![](https://github.com/nezihaksu/Projects/blob/master/images/negative_wordcloud.JPG)
+![](/images/negative_wordcloud.JPG)
   
   Wordcloud for positive words:
   
-![](https://github.com/nezihaksu/Projects/blob/master/images/positive_wordcloud.JPG)
+![](/images/positive_wordcloud.JPG)
 
   Which word is used for what sense and their ratio of negative or positive usage.There are thousands of words,these are just the best     representations that i found.
   
