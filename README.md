@@ -41,4 +41,12 @@
   Usually logistic regression is the best machine learning algorithm that classifies binary classes,even better than neural networks    
   mostly.
   Both timewise and simplicity logistic regression is the way to go when there are binary outcomes.
-  
+
+
+# [Customer Segmentation Analysis](https://github.com/nezihaksu/Projects/blob/master/segmentation/Customer_Segmentation_Analysis.ipynb)
+
+  - Aim to segment customers based on the age,education,income,occupation,settlement size etc. features.
+  - Done EDA and found out insights from the raw data.
+  - Clustering with K-Means clustering technique to see where the most of the information is.
+  - Done PCA to find out components that have most explained ratio and find out about the features that are correlated with them most.
+  - Done K-Mean clustering with PCA to see defining line between segmentation better than K-Means alone could yield.
