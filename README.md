@@ -48,4 +48,10 @@
   - Cleaning,splitting and stripping data from unwanted characters.
   - Visaulization of the statistics.
   - Hyperparameter search over 3 classifiers to find out the best performing model with the best estimators.
+  
+# [Customer Segmentation Analysis](https://github.com/nezihaksu/Projects/blob/master/segmentation/Customer_Segmentation_Analysis.ipynb)
+  
+  - Using PCA to fasten the clustering analysis.
+  - Exploring data.
+  - Clustering to discover segments to find out the stereotypical customers.
 
