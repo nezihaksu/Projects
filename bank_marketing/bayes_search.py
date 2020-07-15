@@ -2,10 +2,15 @@ import bank_marketing
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split,cross_val_score
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder,MinMaxScaler
 from lightgbm import LGBMClassifier
 from hyperopt import hp,fmin,tpe,Trials,STATUS_OK
 from hyperopt.pyll import scope
+from sklearn.metrics import accuracy_score,confusion_matrix
+from imblearn.over_sampling import SMOTE
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set()
 
 SEED = 42
 
@@ -21,6 +26,15 @@ df.education =  le.fit_transform(df.education)
 x = df.drop('y',axis = 1)
 y = df.y
 
+x = pd.get_dummies(x)
+y = y.map(dict(yes=1,no=0))
+
+#Balancing the target percentage.
+smote = SMOTE(sampling_strategy = 'minority')
+x,y = smote.fit_sample(x,y)
+sc = MinMaxScaler()
+x = sc.fit_transform(x)
+
 def data_splitter(x,y,test = False):
 	x_train,x_test_validation,y_train,y_test_validation = train_test_split(x,y,test_size = 0.25,random_state = SEED)
 	x_validation,x_test,y_validation,y_test = train_test_split(x_test_validation,y_test_validation,test_size = 0.5,random_state = SEED)
@@ -30,7 +44,7 @@ def data_splitter(x,y,test = False):
 
 	return x_train,y_train,x_validation,y_validation
 
-x_train,y_train,x_validation,y_validation = data_splitter(x,y)
+x_train,y_train,x_validation,y_validation,x_test,y_test = data_splitter(x,y,test = True)
 
 
 lgbm = LGBMClassifier
@@ -46,8 +60,7 @@ lgbm_params = {
 }
 
 
-
-def hyperopt(param_space,x_train,y_train,x_validation,y_validation,num_eval):
+def hyperopt(param_space,x_train,y_train,x_validation,y_validation,x_test,y_test,num_eval):
 
 	def objective_function(clf_parameters):
 		
@@ -90,11 +103,23 @@ def hyperopt(param_space,x_train,y_train,x_validation,y_validation,num_eval):
 	print('Best parameters',best_param)
 	print('Test score',clf_best.score(x_validation,y_validation))
 
+	y_pred = clf_best.predict(x_test)
+
+	cm = confusion_matrix(y_test,y_pred)
+	ax = plt.subplot()
+	sns.heatmap(cm,annot = True,ax = ax)
+
+	ax.set_xlabel('Predicted')
+	ax.set_ylabel('Actual')
+	ax.set_title('confusion_matrix')
+	ax.xaxis.set_ticklabels(['No','Yes'])
+	ax.yaxis.set_ticklabels(['No','Yes'])
+	plt.show()
+
 	return trials
 
+num_eval = 40
 
-num_eval = 75
+hyperopt_results = hyperopt(lgbm_params,x_train,y_train,x_validation,y_validation,x_test,y_test,num_eval)
 
-hyperopt_results = hyperopt(lgbm_params,x_train,y_train,x_validation,y_validation,num_eval
-
-#Test Score: 0.9016
+#Test Score:0.944
