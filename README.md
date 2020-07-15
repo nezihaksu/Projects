@@ -43,10 +43,15 @@
   Both timewise and simplicity logistic regression is the way to go when there are binary outcomes.
 
 
-# [Customer Segmentation Analysis](https://github.com/nezihaksu/Projects/blob/master/segmentation/Customer_Segmentation_Analysis.ipynb)
+# [Bank Marketing Analysis](https://github.com/nezihaksu/Projects/tree/master/bank_marketing)
 
-  - Aim to segment customers based on the age,education,income,occupation,settlement size etc. features.
-  - Done EDA and found out insights from the raw data.
-  - Clustering with K-Means clustering technique to see where the most of the information is.
-  - Done PCA to find out components that have most explained ratio and find out about the features that are correlated with them most.
-  - Done K-Mean clustering with PCA to see defining line between segmentation better than K-Means alone could yield.
+  - Cleaning,splitting and stripping data from unwanted characters.
+  - Visaulization of the statistics.
+  - Hyperparameter search over 3 classifiers to find out the best performing model with the best estimators.
+  
+# [Customer Segmentation Analysis](https://github.com/nezihaksu/Projects/blob/master/segmentation/Customer_Segmentation_Analysis.ipynb)
+  
+  - Using PCA to fasten the clustering analysis.
+  - Exploring data.
+  - Clustering to discover segments to find out the stereotypical customers.
+
