@@ -1,5 +1,30 @@
 # Portfolio
 
+Skills:Python;pandas,numpy,sklearn,django,SQL,Excel and other various libraries that are built to perform data analysis and machine learning tasks easier and showcasing results.
+
+Previous Projects:
+
+  Economic Growth and Financial Development in Turkey(Applied Econometrics):
+  
+    Analyzing relationship between these two factors with variables like GDP and Money Supply using Time Series analysis techniques.
+    
+  Graduate and Undergraduate Population in Provinces of Turkey(Longitudinal and Panel Data Analysis):
+  
+    I led and helped my team in finding variables and data regarding those variables.After that i helped my team members to develop their own models.
+  
+
+# Contact Information
+  Nezih Aksu
+  
+  Phone
+  90 (539) 452 42 47
+  
+  E-Mail Address
+  nezih-aksu@hotmail.com
+  
+  Address
+  Türkiye - İstanbul(Avr.) - Sarıyer
+
 # [Twitter Sentiment Analysis](https://github.com/nezihaksu/Projects/tree/master/medicalsentiment)
   
   Sentiment analysis yields results beyond words' meanings and their meaning in sentences.
@@ -46,8 +71,12 @@
 # [Bank Marketing Analysis](https://github.com/nezihaksu/Projects/tree/master/bank_marketing)
 
   - Cleaning,splitting and stripping data from unwanted characters.
-  - Visaulization of the statistics.
+  - Visaulization of the statistics.Here is the [link](https://github.com/nezihaksu/Projects/blob/master/bank_marketing/bank_marketing_eda.ipynb).
   - Hyperparameter search over 3 classifiers to find out the best performing model with the best estimators.
+  - LGBMClassifier with 0.95 accuracy and confusion matrix;
+  ![](/images/negative_wordcloud.JPG))
+  - Built Django REST API to create a form to estimate term deposit subcription of a client.
+  ![](/images/term_deposit_form.JPG)
   
 # [Customer Segmentation Analysis](https://github.com/nezihaksu/Projects/blob/master/segmentation/Customer_Segmentation_Analysis.ipynb)
   
