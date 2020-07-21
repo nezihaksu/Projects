@@ -76,7 +76,7 @@
   - Hyperparameter search over 3 classifiers to find out the best performing model with the best estimators.
   - [LGBMClassifier with 0.94 accuracy](https://github.com/nezihaksu/Projects/blob/master/bank_marketing/bayes_search.py) and confusion matrix;
   
-  ![](/images/confusion_matrix_graph.JPG)
+  ![](/images/confusion_matrix_graph.png)
   
   - Built Django REST API to create a form to estimate term deposit subcription of a client.
   ![](/images/term_deposit_form.JPG)
