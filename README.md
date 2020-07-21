@@ -14,15 +14,16 @@
   
 
 # Contact Information
+
   Nezih Aksu
   
-  Phone
+  Phone -- 
     90 (539) 452 42 47
   
-  E-Mail Address
+  E-Mail Address -- 
     nezih-aksu@hotmail.com
   
-  Address
+  Address -- 
     Türkiye - İstanbul(Avr.) - Sarıyer
  
 # DATA PROJECTS:
