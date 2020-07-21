@@ -3,6 +3,9 @@
 # Skills:
   Python;pandas,numpy,sklearn,django,SQL,Excel and other various libraries that are built to perform data analysis and machine learning tasks easier and showcasing results.
 
+# Education:
+  Istanbul University - Econometrics
+
 # Previous Projects:
   # Economic Growth and Financial Development in Turkey(Applied Econometrics):
   
@@ -15,14 +18,14 @@
 
 # Contact Information
   
-  Phone -- 
-    # 90 (539) 452 42 47
+  Phone: 
+     90 (539) 452 42 47
   
-  E-Mail Address -- 
-    # nezih-aksu@hotmail.com
+  E-Mail Address:  
+     nezih-aksu@hotmail.com
   
-  Address -- 
-    # Türkiye - İstanbul(Avr.) - Sarıyer
+  Address: 
+     Türkiye - İstanbul(Avr.) - Sarıyer
  
 # DATA PROJECTS:
 
