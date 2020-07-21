@@ -3,7 +3,7 @@
 # Skills:
   Python;pandas,numpy,sklearn,django,SQL,Excel and other various libraries that are built to perform data analysis and machine learning tasks easier and showcasing results.
 
-Previous Projects:
+# Previous Projects:
   Economic Growth and Financial Development in Turkey(Applied Econometrics):
   
     Analyzing relationship between these two factors with variables like GDP and Money Supply using Time Series analysis techniques.
@@ -17,13 +17,15 @@ Previous Projects:
   Nezih Aksu
   
   Phone
-  90 (539) 452 42 47
+    90 (539) 452 42 47
   
   E-Mail Address
-  nezih-aksu@hotmail.com
+    nezih-aksu@hotmail.com
   
   Address
-  Türkiye - İstanbul(Avr.) - Sarıyer
+    Türkiye - İstanbul(Avr.) - Sarıyer
+ 
+# DATA PROJECTS:
 
 # [Twitter Sentiment Analysis](https://github.com/nezihaksu/Projects/tree/master/medicalsentiment)
   
