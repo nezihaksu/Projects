@@ -28,7 +28,6 @@ def convert_ohe(df):
 	one_hot_col = joblib.load(r'C:\Users\nezih\Repository\ModelAPI\TermDepositAPI\one_hot.pkl')
 	categorical_names = ['job','marital','education','default','housing','loan','last_contact_month','contact_type','previous_campaign_outcome']
 	df_preprocessed = pd.get_dummies(df,columns = categorical_names)
-	print('convert_ohe columns',df_preprocessed.columns)
 	new_dict = {}
 	for col in one_hot_col:
 		if col in df_preprocessed.columns:
@@ -36,8 +35,6 @@ def convert_ohe(df):
 		else:
 			new_dict[col] = 0
 	new_df = pd.DataFrame(new_dict)
-	print('newdf shape')
-	print(new_df.shape)
 	return new_df
 
 
@@ -80,9 +77,7 @@ def cxcontact(request):
 			poutcome = form.cleaned_data['previous_campaign_outcome']
 			data_dict = (request.POST).dict()
 			df = pd.DataFrame(data_dict,index = [0])
-			print(df.columns)
 			answer = subscription_status(convert_ohe(df))
-			print(answer)
 			messages.success(request,'Subscription status: {}'.format(answer))
 			
 
