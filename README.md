@@ -4,27 +4,27 @@
   Python;pandas,numpy,sklearn,django,SQL,Excel and other various libraries that are built to perform data analysis and machine learning tasks easier and showcasing results.
 
 # Previous Projects:
-  Economic Growth and Financial Development in Turkey(Applied Econometrics):
+  #Economic Growth and Financial Development in Turkey(Applied Econometrics):
   
-    Analyzing relationship between these two factors with variables like GDP and Money Supply using Time Series analysis techniques.
+   Analyzing relationship between these two factors with variables like GDP and Money Supply using Time Series analysis techniques.
     
-  Graduate and Undergraduate Population in Provinces of Turkey(Longitudinal and Panel Data Analysis):
+  #Graduate and Undergraduate Population in Provinces of Turkey(Longitudinal and Panel Data Analysis):
   
-    I led and helped my team in finding variables and data regarding those variables.After that i helped my team members to develop their own models.
+   I led and helped my team in finding variables and data regarding those variables.After that i helped my team members to develop their own models.
   
 
 # Contact Information
 
-  Nezih Aksu
+  #Nezih Aksu
   
   Phone -- 
-    90 (539) 452 42 47
+    #90 (539) 452 42 47
   
   E-Mail Address -- 
-    nezih-aksu@hotmail.com
+    #nezih-aksu@hotmail.com
   
   Address -- 
-    Türkiye - İstanbul(Avr.) - Sarıyer
+    #Türkiye - İstanbul(Avr.) - Sarıyer
  
 # DATA PROJECTS:
 
