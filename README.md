@@ -1,4 +1,4 @@
-# Portfolio
+# Nezih Aksu Portfolio
 
 # Skills:
   Python;pandas,numpy,sklearn,django,SQL,Excel and other various libraries that are built to perform data analysis and machine learning tasks easier and showcasing results.
@@ -14,8 +14,6 @@
   
 
 # Contact Information
-
-  # Nezih Aksu
   
   Phone -- 
     # 90 (539) 452 42 47
