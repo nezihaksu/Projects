@@ -4,7 +4,7 @@
   Python;pandas,numpy,sklearn,django,SQL,Excel and other various libraries that are built to perform data analysis and machine learning tasks easier and showcasing results.
 
 # Education:
-  Istanbul University - Econometrics
+  Istanbul University - Econometrics Undergraduate
 
 # Previous Projects:
   # Economic Growth and Financial Development in Turkey(Applied Econometrics):
