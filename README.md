@@ -1,9 +1,9 @@
 # Portfolio
 
-Skills:Python;pandas,numpy,sklearn,django,SQL,Excel and other various libraries that are built to perform data analysis and machine learning tasks easier and showcasing results.
+# Skills:
+  Python;pandas,numpy,sklearn,django,SQL,Excel and other various libraries that are built to perform data analysis and machine learning tasks easier and showcasing results.
 
 Previous Projects:
-
   Economic Growth and Financial Development in Turkey(Applied Econometrics):
   
     Analyzing relationship between these two factors with variables like GDP and Money Supply using Time Series analysis techniques.
