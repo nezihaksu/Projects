@@ -3,6 +3,10 @@
 # Skills:
   Python;pandas,numpy,sklearn,django,SQL,Excel and other various libraries that are built to perform data analysis and machine learning tasks easier and showcasing results.
 
+# Experience:
+  
+  Financial analysis and reporting of turkish firms and working with Django framework at InvestAZ. 
+
 # Education:
   Istanbul University - Econometrics Undergraduate
 
