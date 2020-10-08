@@ -3,6 +3,13 @@
 # Skills:
   Python;pandas,numpy,sklearn,django,SQL,Excel and other various libraries that are built to perform data analysis and machine learning tasks easier and showcasing results.
 
+# Experience:
+  
+  Financial analysis and reporting of turkish firms and working with Django framework at InvestAZ. 
+
+# Education:
+  Istanbul University - Econometrics Undergraduate
+
 # Previous Projects:
   # Economic Growth and Financial Development in Turkey(Applied Econometrics):
   
@@ -15,14 +22,14 @@
 
 # Contact Information
   
-  Phone -- 
-    # 90 (539) 452 42 47
+  Phone: 
+     90 (539) 452 42 47
   
-  E-Mail Address -- 
-    # nezih-aksu@hotmail.com
+  E-Mail Address:  
+     nezih-aksu@hotmail.com
   
-  Address -- 
-    # Türkiye - İstanbul(Avr.) - Sarıyer
+  Address: 
+     Türkiye - İstanbul(Avr.) - Sarıyer
  
 # DATA PROJECTS:
 
@@ -75,7 +82,9 @@
   - Visaulization of the statistics.Here is the [link](https://github.com/nezihaksu/Projects/blob/master/bank_marketing/bank_marketing_eda.ipynb).
   - Hyperparameter search over 3 classifiers to find out the best performing model with the best estimators.
   - [LGBMClassifier with 0.94 accuracy](https://github.com/nezihaksu/Projects/blob/master/bank_marketing/bayes_search.py) and confusion matrix;
-  ![](/images/confusion_matrix_graph.JPG))
+  
+  ![](/images/confusion_matrix_graph.png)
+  
   - Built Django REST API to create a form to estimate term deposit subcription of a client.
   ![](/images/term_deposit_form.JPG)
   
